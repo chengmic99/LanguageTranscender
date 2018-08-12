@@ -1,0 +1,41 @@
+doctype html
+html(lang='en')
+  head
+    meta(charset='utf-8')
+    meta(name='viewport', content='width=device-width, initial-scale=1, shrink-to-fit=no')
+    meta(content='LT, speech, translation, watson, api', name='keywords')
+    meta(content='Real time speech translation', name='description')
+    meta(content='Language Transcender', name='title')
+    // jQuery library
+    script(src='https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js')
+    // Latest compiled JavaScript
+    script(src='https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js', integrity='sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa', crossorigin='anonymous')
+    // Bootstrap CSS
+    link(rel='stylesheet', href='https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta/css/bootstrap.min.css', integrity='sha384-/Y6pD6FV/Vv2HJnA6t+vslU6fwYXjCFtcEpHbNJ0lyAFsXTsjBbfaDjzALeQsN6M', crossorigin='anonymous')
+    // my CSS
+    link(rel='stylesheet', href='/css/main.css')
+    // my javascript
+    script(src='/js/main.js')
+    block header-content
+    title Language Transcender
+  body
+    // nav bar
+    nav.navbar.fixed-top.navbar-light.bg-light
+      a.navbar-brand.h1.az(href='/views/index.jade')
+        b
+          h1.big-text Language Transcender
+      span.navbar-text
+        a.az(href='#', target='_blank') powered by ibm watson
+    br
+    br
+    br
+    br
+    br
+    br
+    br
+    .container-fluid.text-center.text-white
+        block content
+    
+    // footer
+    footer.footer.text-right.fixed-bottom.text-white
+      p Flagpole Productions

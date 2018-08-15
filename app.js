@@ -45,7 +45,7 @@ app.get('/views/transcend.jade', function (req, res) {
 })
 
 http.createServer(app).listen(
-  app.get('port'),
+  process.env.PORT || 4000,
   function(req, res) {
       console.log(app.get('appName')+' is listening on port: ' + app.get('port'));
   }

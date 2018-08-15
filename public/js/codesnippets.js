@@ -89,3 +89,15 @@
 // function onEvent(name, event) {
 //     console.log(name, JSON.stringify(event, null, 2));
 // };
+
+
+//////////////////////// lt creds ////////////////////////
+// var lt = new LanguageTranslatorV3({
+//     "version": process.env.LT_VERSION,
+//     "iam_apikey": process.env.LT_IAM_APIKEY,
+//     "iam_apikey_description": process.env.LT_IAM_APIKEY_DESCRIPTION,
+//     "iam_apikey_name": process.env.LT_IAM_APIKEY_NAME,
+//     "iam_role_crn": process.env.LT_IAM_ROLE_CRN,
+//     "iam_serviceid_crn": process.env.LT_IAM_SERVICEID_CRN,
+//     "url": process.env.LT_URL
+// });

@@ -2,15 +2,15 @@
   "name": "languagetranscender",
   "version": "1.0.0",
   "description": "app",
-  "main": "server.js",
+  "main": "app.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "build": "browserify ../LanguageTranscender/public/js/transcend.js > ../LanguageTranscender/public/js/bundle.js"
+    "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "Michelle Cheng",
   "license": "ISC",
   "dependencies": {
-    "browserify": "^16.2.2",
+    "cfenv": "^1.1.0",
+    "cookie-parser": "^1.4.3",
     "dotenv": "^6.0.0",
     "express": "^4.16.3",
     "jade": "^1.11.0",

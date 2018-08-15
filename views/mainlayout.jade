@@ -7,6 +7,10 @@ html(lang='en')
     meta(content='Real time speech translation', name='description')
     meta(content='Language Transcender', name='title')
 
+
+    block header-content
+    title Language Transcender
+  body
     // jQuery library
     script(src='https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js')
     // Latest compiled JavaScript
@@ -23,10 +27,7 @@ html(lang='en')
     script(src='/js/main.js')
     link(rel='stylesheet', href='/css/main.css')
 
-
-    block header-content
-    title Language Transcender
-  body
+        
     // nav bar
     nav.navbar.fixed-top.navbar-light.bg-light
       a.navbar-brand.h1.az(href='/views/index.jade')

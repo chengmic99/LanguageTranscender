@@ -1,18 +1,5 @@
 extends mainlayout
 block content
-
-  script.
-    $(document).ready(function(){
-      var numSpeakers;
-      $('#btn-room-name').click(function(){
-        createLangForm("form-language", "select-lang");  //create forms from available langs
-        toggler("form-language")
-        toggler("btn-transcend")
-      });
-      $('#btn-transcend').click(function(){
-        sendPrep();
-      });
-    });
   form
     #num-speakers-form.form-group
       label
@@ -33,5 +20,18 @@ block content
   br
   button#btn-transcend.btn.btn-light.hidden(type='button')
     a#transcend-link.text-purple(href='/views/transcend.jade') time 2 transcend!
+
+  script.
+    $(document).ready(function(){
+      var numSpeakers;
+      $('#btn-room-name').click(function(){
+        createLangForm("form-language", "select-lang");  //create forms from available langs
+        toggler("form-language")
+        toggler("btn-transcend")
+      });
+      $('#btn-transcend').click(function(){
+        sendPrep();
+      });
+    });
 
 

@@ -19,6 +19,6 @@
     "watson-developer-cloud": "^3.7.0",
     "watson-speech": "^0.34.2",
     "websocket": "^1.0.26",
-    "ws": "^6.0.0"
+    "ws": "^7.4.6"
   }
 }
